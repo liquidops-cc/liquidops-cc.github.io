@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LiqudOps | Fluid Infrastructure, Solid Results</title>
+    <meta
+      name="description"
+      content="Expert DevOps consultancy specializing in Kubernetes, AWS, GitOps, and Cloud Automation."
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <div class="container nav-content">
+        <div class="logo">
+          <i class="fas fa-droplet gradient-text"></i>
+          Liqud<span>Ops</span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#tech">Tech Stack</a></li>
+          <li>
+            <a href="mailto:info@liquidops.cc" class="btn btn-secondary"
+              >Get in Touch</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1 class="gradient-text">Fluid Infrastructure. Solid Results.</h1>
+        <p>
+          Elevate your engineering velocity with expert Cloud Native
+          architecture. We build robust, scalable, and automated systems that
+          move as fast as your business.
+        </p>
+        <div class="cta-group">
+          <a href="mailto:info@liquidops.cc" class="btn btn-primary"
+            >Start a Project</a
+          >
+          <a href="#services" class="btn btn-secondary">Our Expertise</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container text-center section-title">
+        <h2 class="gradient-text">Core Capabilities</h2>
+        <p>Mastering the complexities of modern cloud infrastructure.</p>
+      </div>
+      <div class="container services-grid">
+        <div class="service-card glass">
+          <i class="fas fa-cubes"></i>
+          <h3>Kubernetes</h3>
+          <p>
+            Advanced orchestration and cluster management. We design
+            production-ready EKS, GKE, and self-managed clusters with a focus on
+            security and efficiency.
+          </p>
+        </div>
+        <div class="service-card glass">
+          <i class="fab fa-aws"></i>
+          <h3>AWS Cloud</h3>
+          <p>
+            Native architecture design using Infrastructure as Code
+            (Terraform/Pulumi). Leveraging the full power of AWS to drive
+            innovation and cost-optimization.
+          </p>
+        </div>
+        <div class="service-card glass">
+          <i class="fab fa-google"></i>
+          <h3>Google Cloud</h3>
+          <p>
+            Expertise in GCP services including GKE, Cloud Run, and BigQuery.
+            Building scalable, data-driven infrastructure with a focus on
+            developer productivity.
+          </p>
+        </div>
+        <div class="service-card glass">
+          <i class="fas fa-code-branch"></i>
+          <h3>GitOps</h3>
+          <p>
+            Implementing ArgoCD and Flux for declarative infrastructure. Ensure
+            your production state always matches your versioned configuration.
+          </p>
+        </div>
+        <div class="service-card glass">
+          <i class="fas fa-bolt"></i>
+          <h3>CI/CD Pipelines</h3>
+          <p>
+            High-velocity deployment workflows. Custom-built automation using
+            GitHub Actions, GitLab CI, or Jenkins to ship code with confidence.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="features">
+      <div class="container">
+        <div class="feature-row">
+          <div
+            class="feature-image glass"
+            style="
+              background-image: url(&quot;assets/feature-1.png&quot;);
+              background-size: cover;
+              background-position: center;
+            "
+          ></div>
+          <div class="feature-content">
+            <h2 class="gradient-text">Infrastructure that Flows</h2>
+            <p>
+              Static infrastructure is a bottleneck. We specialize in creating
+              "Liquid Ops"—systems that are resilient, self-healing, and
+              elastic.
+            </p>
+            <ul
+              style="
+                list-style: none;
+                margin-top: 1.5rem;
+                color: var(--text-secondary);
+              "
+            >
+              <li style="margin-bottom: 0.5rem">
+                <i
+                  class="fas fa-check-circle"
+                  style="color: var(--accent-color); margin-right: 10px"
+                ></i>
+                Zero-Downtime Deployments
+              </li>
+              <li style="margin-bottom: 0.5rem">
+                <i
+                  class="fas fa-check-circle"
+                  style="color: var(--accent-color); margin-right: 10px"
+                ></i>
+                Multi-Region Disaster Recovery
+              </li>
+              <li style="margin-bottom: 0.5rem">
+                <i
+                  class="fas fa-check-circle"
+                  style="color: var(--accent-color); margin-right: 10px"
+                ></i>
+                Cost-Efficient Auto-Scaling
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="tech"
+      class="tech-stack"
+      style="padding: 8rem 0; background: rgba(0, 0, 0, 0.3)"
+    >
+      <div class="container text-center section-title">
+        <h2 class="gradient-text">Our Tech Stack</h2>
+        <p>Battle-tested tools for mission-critical operations.</p>
+      </div>
+      <div
+        class="container"
+        style="
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+          gap: 3rem;
+          opacity: 0.6;
+        "
+      >
+        <div class="tech-item" title="Kubernetes">
+          <i class="fas fa-dharmachakra fa-3x"></i>
+        </div>
+        <div class="tech-item" title="Google Cloud">
+          <i class="fab fa-google fa-3x"></i>
+        </div>
+        <div class="tech-item" title="AWS">
+          <i class="fab fa-aws fa-3x"></i>
+        </div>
+        <div class="tech-item" title="Terraform">
+          <i class="fas fa-mountain fa-3x"></i>
+        </div>
+        <div class="tech-item" title="GitHub Actions">
+          <i class="fab fa-github fa-3x"></i>
+        </div>
+        <div class="tech-item" title="Docker">
+          <i class="fab fa-docker fa-3x"></i>
+        </div>
+        <div class="tech-item" title="Python">
+          <i class="fab fa-python fa-3x"></i>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="container">
+        <div class="footer-logo">
+          <i class="fas fa-droplet gradient-text"></i> LiqudOps
+        </div>
+        <ul class="footer-links">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/salimzianovmarat/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/liquidops-cc" target="_blank">GitHub</a>
+          </li>
+          <li><a href="mailto:info@liquidops.cc">info@liquidops.cc</a></li>
+        </ul>
+        <p class="copyright">
+          &copy; 2026 LiqudOps Consultancy. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
